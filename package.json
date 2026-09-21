@@ -1,0 +1,45 @@
+{
+    "name": "@jdwhitney/dyn-script-loader",
+    "version": "1.0.0",
+    "description": "Utility functions for dynamic `<script>` tag injection.",
+    "keywords": [
+        "script",
+        "scripts",
+        "js",
+        "javascript",
+        "dynamic",
+        "loader",
+        "dyn",
+        "esm",
+        "browser",
+        "util",
+        "utility",
+        "utilities",
+        "dyn-loader"
+    ],
+    "homepage": "https://github.com/joshwhitney92/dyn-script-loader#readme",
+    "bugs": {
+        "url": "https://github.com/joshwhitney92/dyn-script-loader/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joshwhitney92/dyn-script-loader.git"
+    },
+    "exports": {
+        ".": "./index.js"
+    },
+    "files": [
+        "index.js",
+        "README.md",
+        "LICENSE"
+    ],
+    "license": "MIT",
+    "author": "Joshua Whitney",
+    "type": "module",
+    "scripts": {
+        "test": "node --check dist/index.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
