@@ -25,6 +25,8 @@
  */
 
 
+// cache for the loaded script Promises,
+// keyed by absolute URL.
 const loadedScripts = new Map();
 
 /**
@@ -103,7 +105,7 @@ export async function loadScripts(urls) {
 /**
  * Loads a `<script>` into the document `<head>` using `url` as the `src` value. 
  * The script is expected to add a global object, `globalName` to the window
- * object, and will verify that the global object exists and is accessible. If
+ * object. The function will verify that the global object exists and is accessible. If
  * the `globalName` object is not accessible on the window object, this function
  * will throw an `Error`, else it will return the `globalObject`.
  * @param {string} url - An absolute or document-relative URL for the script.
