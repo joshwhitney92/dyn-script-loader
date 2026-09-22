@@ -1,6 +1,6 @@
 {
     "name": "@jdwhitney/dyn-script-loader",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Utility functions for dynamic `<script>` tag injection.",
     "keywords": [
         "script",
